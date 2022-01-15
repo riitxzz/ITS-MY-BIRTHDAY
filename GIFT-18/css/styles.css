@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@700&family=The+Nautigal:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+body {
+  background-color: rgb(221, 58, 58);
+}
+
+/*TEXTs*/
+
+/*TYPING-CSS-ANIMATION
+
+
+.main_body_text{
+  font-size: 20vh;
+ color: black;
+ display: flex;
+ flex-direction: column ;
+ justify-content: center;
+ align-items: center;
+}
+
+my_wish {
+  font-size: 5vh;
+  padding-top: 13%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+ border-right: 2px solid white;
+animation: typewriter 5s steps(16) 1s 1 normal both, 
+           blinkTextCursor 1000ms steps(16) infinite normal ;
+
+}
+
+@keyframes blinkTextCursor{
+  from{ 
+      border-right-color: black ;
+      
+  }
+      to{
+          border-right-color: transparent ;
+          
+      }
+      
+}
+
+@keyframes typewriter{
+  from{
+      width:0;
+    }
+      to{
+          width: 100%;}
+}
+ 
+*/
+
+.Main_text {
+  font-family: "Dancing Script", cursive;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 5vh;
+  height: 80vh;
+  margin: 3% 2%;
+}
+
+.my_wish {
+  padding-top: 13%;
+}
+
+#text {
+  font-size: 20vh;
+}
+#text2,
+#text3,
+#text4 {
+  font-size: 9vh;
+}
+
+.description_text {
+  font-family: "Cookie", cursive;
+  font-size: 1.9rem;
+  font-weight: 300;
+}
+
+/* BROWN-BORDERS*/
+
+#line {
+  height: 3vh;
+  background-color: rgb(44, 15, 15);
+}
+
+/*CARDS*/
+
+.card {
+  height: max-content;
+  background-color: rgba(255, 228, 228, 0.678);
+  box-shadow: 2px 4px 9px 2px /*0 4 8 0*/ rgba(0, 0, 0, 0.2);
+  border-radius: 7%;
+  margin: 3%;
+  padding: 3%;
+}
+
+.card-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Image {
+  padding: 2%;
+  width: 6rem;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2vh;
+  color: rgb(0, 0, 0);
+  width: 12rem;
+  /* padding: 16px 32px; */
+  padding: 2%;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+/*FOOTER-SECTION*/
+
+.contact-details {
+  font-family: "Font Awesome 5 Brands";
+  color: black;
+  font-size: 3rem;
+  margin: 1%;
+}
+
+.Footer_text {
+  font-family: "Cookie", cursive;
+  font-weight: 150;
+  font-size: 6rem;
+}
+
+.Copyright {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 1rem; 
+  margin-top: 4%;
+}
+
+                                /* MEDIA-QUERY-FOR-DESKTOP-TABLETS-MOBILES-DEVICES */
+@media screen and (max-width: 1280px) {
+  .Footer_text {
+    font-size: 5rem;
+  }
+
+  .description_text{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1118px) {
+  .my_wish {
+    margin: 2%;
+  }
+
+  .description_text {
+    font-size: 1.6rem;
+  }
+
+  #text {
+    font-size: 17vh;
+  }
+  .card {
+    height: max-content;
+    width: max-content;
+  }
+  .Footer_text {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .my_wish {
+    font-size: 14vh;
+    padding-top: 25%;
+  }
+
+  #text2 {
+    font-size: 3rem;
+    padding-top: 7%;
+  }
+  .description_text {
+    padding: 2%;
+    font-size: 1.5rem;
+  }
+
+  .card-block {
+    padding: 7%;
+  }
+  .card {
+    
+    height: max-content;
+    width: max-content;
+  }
+  #text4 {
+    padding-top: 7%;
+  }
+  .Footer_text {
+    font-size: 3.4rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .my_wish {
+    font-size: 12vh;
+    padding-top: 40%;
+  }
+  .description_text {
+    padding: 2%;
+    font-size: 1.4rem;
+  }
+
+  .button {
+    width: 9rem;
+    border-radius: 30%;
+  }
+  .card-block {
+    margin: 12%;
+  }
+
+  .card {
+    height: 12rem;
+    width: max-content;
+  }
+
+  #text4 {
+    padding: 7%;
+  }
+
+  .Footer_text {
+    font-size: 2.9rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .my_wish {
+    font-size: 9vh;
+  }
+
+  .description_text {
+    font-size: 1.2rem;
+  }
+
+  .card {
+    height: 10rem;
+    width: max-content;
+  }
+  .button {
+    border-radius: 20%;
+  }
+  .Footer_text {
+    padding-top: 10%;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .my_wish {
+    font-size: 13vh;
+  }
+  #text2 {
+    font-size: 2rem;
+  }
+
+  .description_text {
+    font-size: 1.4rem;
+  }
+  .card-block {
+    padding: 8%;
+  }
+
+  .button {
+    font-size: 30%;
+    padding: 4%;
+    width: 17vh;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .my_wish {
+    font-size: 4vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-block {
+    margin: 20%;
+  }
+
+  .my_wish{
+    font-size: 4rem;
+  }
+  .description_text {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    height: 8rem;
+    width: max-content;
+  }
+
+  .button {
+    width: max-content;
+    font-size: 1rem;
+    padding: 4%;
+  }
+
+  .contact-details {
+    font-size: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+  .my_wish {
+    font-size: 5rem;
+  }
+
+  .description_text {
+    font-size: 0.8rem;
+  }
+
+  .Footer_text {
+    font-size: 2rem;
+  }
+
+  .Image {
+    width: 10vh;
+  }
+  .card {
+    width: max-content;
+    margin: 2%;
+  }
+
+  .button {
+    width: max-content;
+  }
+}
