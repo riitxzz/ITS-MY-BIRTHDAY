@@ -13,3 +13,6 @@ Hope you liked it.
 Thankyou so much. 
 Regards: Riddhi
 mail: riddhiagrawal734@gmail.com
+Just a glace of the landing page :-
+![image](https://user-images.githubusercontent.com/79087613/177499607-59abd546-850c-4a75-85f8-a81c0bfbd994.png)
+
